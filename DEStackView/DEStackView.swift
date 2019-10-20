@@ -8,9 +8,9 @@
 
 import UIKit
 
-final open class DEStackView: UIStackView {
+open class DEStackView: UIStackView {
 
-    required init(coder: NSCoder) {
+    open required init(coder: NSCoder) {
         super.init(coder: coder)
     }
 
