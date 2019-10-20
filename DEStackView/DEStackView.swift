@@ -10,7 +10,7 @@ import UIKit
 
 open class DEStackView: UIStackView {
 
-    open required init(coder: NSCoder) {
+    public required init(coder: NSCoder) {
         super.init(coder: coder)
     }
 
