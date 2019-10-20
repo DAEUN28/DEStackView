@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "DEStackView"
-  spec.version      = "0.1.1"
+  spec.version      = "0.1.2"
   spec.summary      = "Addable, deleteable StackView"
 
   spec.description  = <<-DESC
