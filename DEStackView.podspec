@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "DEStackView"
-  spec.version      = "0.0.1"
-  spec.summary      = "This StackView will help you to add and remove custom Views"
+  spec.version      = "0.1.0"
+  spec.summary      = "Addable, deleteable StackView"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+	This StackView will help you to add and remove custom Views
                    DESC
 
   spec.homepage     = "https://github.com/DAEUN28/DEStackView"
@@ -79,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/DAEUN28/DEStackView.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/DAEUN28/DEStackView.git", :tag => "0.1.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +92,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "Source/*.swift"
-  spec.exclude_files = "Classes/Exclude"
+  # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
