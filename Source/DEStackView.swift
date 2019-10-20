@@ -8,13 +8,13 @@
 
 import UIKit
 
-final public class DEStackView: UIStackView {
+final open class DEStackView: UIStackView {
 
     required init(coder: NSCoder) {
         super.init(coder: coder)
     }
 
-    public func addView(newView: DEXibView) {
+    open func addView(newView: DEXibView) {
         let idx = self.arrangedSubviews.count - 1
         newView.initUI()
         newView.isHidden = true

@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class DEXibView: UIView {
+open class DEXibView: UIView {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -26,9 +26,9 @@ public class DEXibView: UIView {
         self.addSubview(view)
     }
 
-    public func initUI() {}
+    open func initUI() {}
 
-    @objc public func deleteBtnTaps(sender: UIButton) {
+    @objc open func deleteBtnTaps(sender: UIButton) {
         guard let view = sender.superview else { return }
         UIView.animate(withDuration: 0.1,
                        animations: { view.isHidden = true },
