@@ -21,7 +21,7 @@ pod 'DEStackView'
 
 2. You can use the storyboard or implement it in code. (Content Layout Guide and Frame Layout Guide may not be in view herarchy. And you can add any view as subView of scrollView.)
 
-![viewHierarchy](/Users/baby1234/Documents/GitHub/DEStackView/Images/viewHierarchy.png)
+![viewHierarchy](https://github.com/DAEUN28/DEStackView/blob/master/Images/viewHierarchy.png)
 
 3. StackView must inherit DEStackView.
 4. Every time a addBtn is tap, create a new CustomView class object. And use addView(newView:) method in DEStackView. 
