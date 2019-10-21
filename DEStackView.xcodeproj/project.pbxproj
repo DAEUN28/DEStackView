@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		370214D4235D344500CC954F /* DEView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370214D3235D344500CC954F /* DEView.swift */; };
 		377C56F9235C3A6300CCB5D9 /* DEStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377C56F7235C3A6300CCB5D9 /* DEStackView.swift */; };
 		377C56FA235C3A6300CCB5D9 /* DEXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377C56F8235C3A6300CCB5D9 /* DEXibView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		370214D3235D344500CC954F /* DEView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DEView.swift; sourceTree = "<group>"; };
 		377C56DF235C397000CCB5D9 /* DEStackView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DEStackView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		377C56F0235C397200CCB5D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		377C56F7235C3A6300CCB5D9 /* DEStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DEStackView.swift; sourceTree = "<group>"; };
@@ -50,6 +52,7 @@
 			children = (
 				377C56F7235C3A6300CCB5D9 /* DEStackView.swift */,
 				377C56F8235C3A6300CCB5D9 /* DEXibView.swift */,
+				370214D3235D344500CC954F /* DEView.swift */,
 				377C56F0235C397200CCB5D9 /* Info.plist */,
 			);
 			path = DEStackView;
@@ -124,6 +127,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				370214D4235D344500CC954F /* DEView.swift in Sources */,
 				377C56F9235C3A6300CCB5D9 /* DEStackView.swift in Sources */,
 				377C56FA235C3A6300CCB5D9 /* DEXibView.swift in Sources */,
 			);

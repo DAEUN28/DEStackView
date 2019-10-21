@@ -1,5 +1,6 @@
 //
 //  XibView.swift
+//  Test
 //
 //  Created by baby1234 on 2019/10/20.
 //  Copyright © 2019 baby1234. All rights reserved.
@@ -7,7 +8,7 @@
 
 import UIKit
 
-open class DEXibView: UIView {
+open class DEXibView: DEView {
 
     public override init(frame: CGRect) {
         super.init(frame: frame)
@@ -23,14 +24,5 @@ open class DEXibView: UIView {
         let view = Bundle.main.loadNibNamed(xibName, owner: self, options: nil)?.first as! UIView
         view.frame = self.bounds
         self.addSubview(view)
-    }
-
-    open func initUI() {}
-
-    @objc open func deleteBtnTaps(sender: UIButton) {
-        guard let view = sender.superview else { return }
-        UIView.animate(withDuration: 0.1,
-                       animations: { view.isHidden = true },
-                       completion: { (_) in view.removeFromSuperview() })
     }
 }
