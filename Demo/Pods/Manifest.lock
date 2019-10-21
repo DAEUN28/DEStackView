@@ -1,0 +1,16 @@
+PODS:
+  - DEStackView (0.3.0)
+
+DEPENDENCIES:
+  - DEStackView
+
+SPEC REPOS:
+  trunk:
+    - DEStackView
+
+SPEC CHECKSUMS:
+  DEStackView: 102ae36fdee190a04a37feb47d30e16da15b4583
+
+PODFILE CHECKSUM: db41987f62561c82289c0c8e3e90540aa074e156
+
+COCOAPODS: 1.8.4

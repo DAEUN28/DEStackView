@@ -1,0 +1,6 @@
+framework module DEStackView {
+  umbrella header "DEStackView-umbrella.h"
+
+  export *
+  module * { export * }
+}
